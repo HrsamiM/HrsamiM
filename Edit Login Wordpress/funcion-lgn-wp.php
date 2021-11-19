@@ -77,7 +77,22 @@ function my_login_logo() { ?>
         text-shadow: 0 -1px 1px #666, 1px 0 1px #666, 0 1px 1px #666, -1px 0 1px #666 !important; 
     } 
     
-    input[type=text]:focus, input[type=search]:focus, input[type=radio]:focus, input[type=tel]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, input[type=password]:focus, input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, select:focus, textarea:focus { 
+    input[type=text]:focus, 
+    input[type=search]:focus, 
+    input[type=radio]:focus, 
+    input[type=tel]:focus, 
+    input[type=time]:focus, 
+    input[type=url]:focus, 
+    input[type=week]:focus, 
+    input[type=password]:focus, 
+    input[type=checkbox]:focus, 
+    input[type=color]:focus, 
+    input[type=date]:focus, 
+    input[type=datetime]:focus, 
+    input[type=datetime-local]:focus, 
+    input[type=email]:focus, 
+    input[type=month]:focus, 
+    input[type=number]:focus, select:focus, textarea:focus { 
         border-color: #c7c8ca !important; 
         box-shadow: 0 0 2px rgba(111,98,90,.4); 
     } 
