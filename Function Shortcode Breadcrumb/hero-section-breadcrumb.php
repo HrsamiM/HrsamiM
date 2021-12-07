@@ -8,7 +8,6 @@ get_header();
 /*Var*/
 
 $headingTitle = get_the_title();
-$breadCrumbs = woocommerce_breadcrumb();
 ?>
 
 <?php
