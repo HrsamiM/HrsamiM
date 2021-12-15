@@ -1,4 +1,3 @@
-
 <?php
 //Function Shortcode Breadcrumb
 function breadcrumbs() {
@@ -6,7 +5,7 @@ function breadcrumbs() {
 
     if(!is_home()) {
         echo '<nav class="breadcrumb">';
-        echo '<a class="breadLink" href="'.home_url('/').'">'.$homePageTitle.'</a><span class="divider"> / </span>';
+        echo '<a class="breadLink" href="'.esc_url(home_url('/')).'">'.$homePageTitle.'</a><span class="divider"> / </span>';
         if (is_category() || is_single()) {
            the_category(' <span class="divider"> / </span> ');
             if (is_single()) {
@@ -20,6 +19,6 @@ function breadcrumbs() {
     }
 }
 add_shortcode( 'breadcrumbs', 'breadcrumbs' );
-
 //End Function Shortcode Breadcrumbs
 
+?>
